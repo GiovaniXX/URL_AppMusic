@@ -496,6 +496,7 @@ public class Main extends javax.swing.JFrame {
 
         // Selecione todos os elementos de resultado de pesquisa no YouTube
         Elements searchResults = doc.select("div#contents > ytd-video-renderer");
+        //Elements searchResults = doc.select("input#search");
 
         // Verifique se existem resultados de pesquisa
         if (!searchResults.isEmpty()) {
